@@ -37,36 +37,32 @@ const pet = {
     catBehaviour: "loving",
     hobbies: ["running around", "eating dreamies", "sleeping"]
 }
-// console.log(`my pets name is ${petName}, he is a ${typeOfPet}. ${petName} is ${age}, he has ${colour} and is very ${catBehaviour}!`)
+console.log(`my pets name is ${petName}, he is a ${typeOfPet}. ${petName} is ${age}, he has ${colour} and is very ${catBehaviour}!`)
 
-// Activity 2 
-// pet.colour["pink"];
-// console.log(pet.colour);
+//Activity 2 
+pet.colour["pink"];
+console.log(pet.colour);
 
 //----------------------------------------------
-//PSUEDO CODE COFFEE SHOP ACTIVITY 5 
-// object called coffee shop 
-// inside have branch, drinks, prices, food
-// create a method inside called drinksOrdered, foodOrdered.
-// methods should return strings saying [Your order] is... 
-//^showing items chosen with prices and total cost.
+const coffeeShop = {
+    branch: false,
+    drinks: ["latte", "mocha", "hot chocolate", "black coffee", "water"],
+    food: ["tuna baguette", "pasta", "eggs with salad"],
+    foodPrices: [7.46, 9.85, 10.64],
+    drinkPrices: [10, 5.99, 1.50, 3.20, 8.10],
 
-// const coffeeShop = {
-//     branch: false,
-//     drinks: ["late", "mocha", "hot chocolate", "black coffee", "water", "mango fruit cooler", "caprisun"],
-//     food: ["tuna baguette", "pasta", "eggs with salad"],
-//     prices: [10, 5.99, 1.50, 3.20, 8.10, 4.50, 2.50, 9.36, 6, 7.38]
-// //do array in array
-//     shopInfo () {
-        
-//     }
-// }
+    drinksOrdered () {
+        //let drink1 = this.drink
+        //let drink2 = this.drink
+        //choose random math . random
+        //console.log(`Your order is ${}`)
+    },
+    
+    foodOrdered() {
+        //let food1 = this.food
+        //let food2 = this.food
+        //choose random math . random
+        //console.log(`Your order is ${}`)
+    }
+}
 
-// const person2 = {
-//     firstName: "Arben",
-//     occupation: "dev"
-// }
-
-// let newArray = [{}, {}]
-
-// newArray[0];

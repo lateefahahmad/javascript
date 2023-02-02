@@ -70,9 +70,18 @@ switch(food3) {
         console.log("Okay, go on then, why not")
 }
 
-// ACTIVITY 2
+// ACTIVITY 2 & Activity 3
 let age = 17;
+let country = "Turkey";
 
-if(age <= 17) {
-    cons
+if(age > 17 && country == "UK") {
+    console.log("Yes I can serve you");
 }
+else {
+    console.log("You aren't old enough AND ur an immigrant so no pal");
+}
+
+// Activity 4 
+
+
+
